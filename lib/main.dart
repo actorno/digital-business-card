@@ -85,7 +85,7 @@ class MyApp extends StatelessWidget {
                     '(757)359-0557',
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
-                      fontSize: 20.0,
+                      fontSize: 15.0,
                       color: Colors.teal.shade900,
                       fontFamily: 'Source Sans Pro',
                       letterSpacing: 4,
@@ -109,7 +109,28 @@ class MyApp extends StatelessWidget {
                       letterSpacing: 4,
                       color: Colors.teal.shade900,
                       fontWeight: FontWeight.bold,
-                      fontSize: 20.0,
+                      fontSize: 15.0,
+                    ),
+                  ),
+                ),
+              ),
+              Card(
+                color: Colors.white,
+                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+                child: ListTile(
+                  onTap: () => launch("http://www.github.com/actorno"),
+                  leading: Icon(
+                    Icons.settings_applications,
+                    color: Colors.blue.shade400,
+                  ),
+                  title: Text(
+                    'http://www.github.com/actorno',
+                    style: TextStyle(
+                      fontFamily: 'Source Sans Pro',
+                      letterSpacing: 4,
+                      color: Colors.teal.shade900,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 10.0,
                     ),
                   ),
                 ),
