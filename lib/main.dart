@@ -85,7 +85,7 @@ class MyApp extends StatelessWidget {
                     '(757)359-0557',
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
-                      fontSize: 15.0,
+                      fontSize: 20.0,
                       color: Colors.teal.shade900,
                       fontFamily: 'Source Sans Pro',
                       letterSpacing: 4,
@@ -109,7 +109,7 @@ class MyApp extends StatelessWidget {
                       letterSpacing: 4,
                       color: Colors.teal.shade900,
                       fontWeight: FontWeight.bold,
-                      fontSize: 15.0,
+                      fontSize: 20.0,
                     ),
                   ),
                 ),
@@ -124,13 +124,13 @@ class MyApp extends StatelessWidget {
                     color: Colors.blue.shade400,
                   ),
                   title: Text(
-                    'http://www.github.com/actorno',
+                    'Git Hub // Actorno',
                     style: TextStyle(
                       fontFamily: 'Source Sans Pro',
                       letterSpacing: 4,
                       color: Colors.teal.shade900,
                       fontWeight: FontWeight.bold,
-                      fontSize: 10.0,
+                      fontSize: 20.0,
                     ),
                   ),
                 ),
